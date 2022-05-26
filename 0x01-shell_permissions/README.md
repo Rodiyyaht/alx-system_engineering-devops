@@ -13,4 +13,5 @@ Task 11: chmod -R +X .; It adds execute permission to all subdirectories for a.
 Task 12: mkdir -m 751 my_dir; Creating a directory called my_dir.
 Task 13: chgrp school hello; Changes the group from hello to school.
 Task 14: chown vincent:staff *; Changes owner to vincent, and changes group owner to staff in all files and directory.
-Task 15: chown -h _hello:staff _vincent; Changes owner and group of _hello to vincent and staff.
+Task 15: chown -h vincent:staff _hello; Changes owner and group of _hello to vincent and staff.
+Task 16: chown --from=guillaume betty hello; Changes owner of file hello to betty only if it is owned by guillaume.
