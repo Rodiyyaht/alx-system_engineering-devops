@@ -9,4 +9,4 @@ Task 7: chmod ugo+x or a+x hello; Everyone can execute.
 Task 8: chmod 007 hello; Only others can rwx,no permission for owner and group at all.
 Task 9: chmod 753 hello; Owner can do all, group can read and execute and others can write and execute.
 Task 10: chmod --reference=olleh hello; Referencing olleh to hello, it sets the mode of olleh the same as hello.
- 
+Task 11: chmod -R +X; It adds execute permission to all subdirectories for a. 
