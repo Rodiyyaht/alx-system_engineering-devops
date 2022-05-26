@@ -12,3 +12,4 @@ Task 10: chmod --reference=olleh hello; Referencing olleh to hello, it sets the 
 Task 11: chmod -R +X .; It adds execute permission to all subdirectories for a.
 Task 12: mkdir -m 751 my_dir; Creating a directory called my_dir.
 Task 13: chgrp school hello; Changes the group from hello to school.
+Task 14: chown vincent:staff *; Changes owner to vincent, and changes group owner to staff in all files and directory.
