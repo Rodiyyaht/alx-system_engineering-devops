@@ -5,5 +5,5 @@ Task 3: chown betty hello; Changes the owner of the file hello to the user betty
 Task 4: creating an empty file called hello.
 Task 5: chmod u+x hello; Owner is given permission to execute the file hello.
 Task 6: chmod ug+x,o+r hello; Owner and group can execute, other users can read.
-Task 7: chmod ugo+x or a; Everyone can execute.
-
+Task 7: chmod ugo+x or a+x hello; Everyone can execute.
+Task 8: chmod 007 hello; Only others can rwx,no permission for owner and group at all.
