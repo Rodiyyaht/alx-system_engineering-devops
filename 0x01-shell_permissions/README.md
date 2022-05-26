@@ -15,3 +15,4 @@ Task 13: chgrp school hello; Changes the group from hello to school.
 Task 14: chown vincent:staff *; Changes owner to vincent, and changes group owner to staff in all files and directory.
 Task 15: chown -h vincent:staff _hello; Changes owner and group of _hello to vincent and staff.
 Task 16: chown --from=guillaume betty hello; Changes owner of file hello to betty only if it is owned by guillaume.
+Task 17: telnet towel.blinkenlights.nl; A script that will play the StarWars IV episode in the terminal.
