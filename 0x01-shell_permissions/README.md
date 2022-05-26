@@ -10,4 +10,5 @@ Task 8: chmod 007 hello; Only others can rwx,no permission for owner and group a
 Task 9: chmod 753 hello; Owner can do all, group can read and execute and others can write and execute.
 Task 10: chmod --reference=olleh hello; Referencing olleh to hello, it sets the mode of olleh the same as hello.
 Task 11: chmod -R +X .; It adds execute permission to all subdirectories for a.
-Task 12: mkdir -m 751 my_dir; Creating a directory called my_dir. 
+Task 12: mkdir -m 751 my_dir; Creating a directory called my_dir.
+Task 13: chgrp school hello; Changes the group from hello to school.
