@@ -7,3 +7,5 @@ Task 5: chmod u+x hello; Owner is given permission to execute the file hello.
 Task 6: chmod ug+x,o+r hello; Owner and group can execute, other users can read.
 Task 7: chmod ugo+x or a+x hello; Everyone can execute.
 Task 8: chmod 007 hello; Only others can rwx,no permission for owner and group at all.
+Task 9: chmod 753 hello; Owner can do all, group can read and execute and others can write and execute.
+
