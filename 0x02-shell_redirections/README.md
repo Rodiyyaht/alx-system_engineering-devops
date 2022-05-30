@@ -40,3 +40,5 @@ Task 19: tr Ac Ze; Replace A and c with Z and e.
 
 Task 20: tr -d cC; Removes all lettters c and C from input.
 
+Task 21: rev; Reverse its input.
+
