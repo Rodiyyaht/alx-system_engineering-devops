@@ -21,3 +21,5 @@ Task 9: echo -en "" | tail --lines=1 iacta >> iacta; Duplicates, the last line o
 Task 10: find . -name '*.js' -type f -delete; Deletes all files in current directory and subfolder that has js. extension.
 
 Task 11: find -mindepth 1 -type d | wc -l; Counts the directory and subdirectory in the current directory.
+
+Task 12: ls -t | head; Displays the newest 10 files.
