@@ -28,3 +28,5 @@ Task 13: sort | uniq -u; Making it unique.
 
 Task 14: grep -i root /etc/passwd; Displaying the pattern root in /etc/passwd in the line.
 
+Task 15: grep -i bin /etc/passwd | wc -l; Word count for word with /bin.
+
