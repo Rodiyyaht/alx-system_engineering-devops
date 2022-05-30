@@ -23,3 +23,6 @@ Task 10: find . -name '*.js' -type f -delete; Deletes all files in current direc
 Task 11: find -mindepth 1 -type d | wc -l; Counts the directory and subdirectory in the current directory.
 
 Task 12: ls -t | head; Displays the newest 10 files.
+
+Task 13: sort | uniq -u; Making it unique.
+
