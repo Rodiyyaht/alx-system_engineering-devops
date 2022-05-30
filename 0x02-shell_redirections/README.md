@@ -36,3 +36,5 @@ Task 17: grep -iv bin /etc/passwd; Display all the lines in files that does not 
 
 Task 18: grep -i "^[a-z]" /etc/ssh/sshd_config; Displaying all lines of the file starting with capital letter.
 
+Task 19: tr Ac Ze; Replace A and c with Z and e.
+
