@@ -46,8 +46,8 @@ Task 22: cut -d':' -f1,6 /etc/passwd | sort; Displays all users and are their ho
 
 Task 23: find . -empty -printf "%f\n";  A command that finds all empty files and directories in the current directory and all sub-directories.
 
-Task 24: find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev;  A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+Task 24: find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f;  A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 
 Task 25: cut -c 1 | tr -d '\n' | sort; .
 
-Task 26: cut -f1 -d$'\t' | sort | uniq -c | tr -s ' ' | sort -t' ' -k1 -nr | head -11 | cut -d' ' -f3.
+Task 26: tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3.
