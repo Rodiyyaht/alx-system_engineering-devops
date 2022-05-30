@@ -6,4 +6,4 @@ Task 2: cat /etc/passwd; It displays the content of /etc/passwd
 
 Task 3: cat /etc/passwd /etc/hosts; Displays the content of /etc/passwd and /etc/host.
 
- 
+Task 4: tail /etc/passwd; Displays the last 10 lines of /etc/passwd.
