@@ -34,3 +34,5 @@ Task 16: grep -iA 3 root /etc/passwd.
 
 Task 17: grep -iv bin /etc/passwd; Display all the lines in files that does not contain bin.
 
+Task 18: grep -i "^[a-z]" /etc/ssh/sshd_config; Displaying all lines of the file starting with capital letter.
+
