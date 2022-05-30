@@ -18,3 +18,5 @@ Task 8: ls -la > ls_cwd_content; Writes the ls -la into ls_cwd_content.
 
 Task 9: echo -en "" | tail --lines=1 iacta >> iacta; Duplicates, the last line of iacta.
 
+Task 10: find . -name '*.js' -type f -delete; Deletes all files in current directory and subfolder that has js. extension.
+
