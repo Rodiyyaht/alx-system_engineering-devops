@@ -42,3 +42,5 @@ Task 20: tr -d cC; Removes all lettters c and C from input.
 
 Task 21: rev; Reverse its input.
 
+Task 22: cut -d':' -f1,6 /etc/passwd | sort; Displays all users and are their home directories soreted by users.
+
