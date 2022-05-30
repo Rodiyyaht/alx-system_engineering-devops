@@ -31,3 +31,6 @@ Task 14: grep -i root /etc/passwd; Displaying the pattern root in /etc/passwd in
 Task 15: grep -i bin /etc/passwd | wc -l; Word count for word with /bin.
 
 Task 16: grep -iA 3 root /etc/passwd.
+
+Task 17: grep -iv bin /etc/passwd; Display all the lines in files that does not contain bin.
+
