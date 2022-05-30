@@ -9,3 +9,5 @@ Task 3: cat /etc/passwd /etc/hosts; Displays the content of /etc/passwd and /etc
 Task 4: tail /etc/passwd; Displays the last 10 lines of /etc/passwd.
 
 Task 5: head /etc/passwd; Displays the first 10 lines of /etc/passwd.
+
+Task 6: head --lines=3 iacta | tail --lines=1; Display the third line of iacta.
