@@ -26,3 +26,5 @@ Task 12: ls -t | head; Displays the newest 10 files.
 
 Task 13: sort | uniq -u; Making it unique.
 
+Task 14: grep -i root /etc/passwd; Displaying the pattern root in /etc/passwd in the line.
+
