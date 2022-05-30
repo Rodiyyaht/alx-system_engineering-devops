@@ -38,3 +38,5 @@ Task 18: grep -i "^[a-z]" /etc/ssh/sshd_config; Displaying all lines of the file
 
 Task 19: tr Ac Ze; Replace A and c with Z and e.
 
+Task 20: tr -d cC; Removes all lettters c and C from input.
+
