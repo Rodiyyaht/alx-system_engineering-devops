@@ -22,3 +22,7 @@ Task 10: echo $((BREATH**LOVE)); Simply does BREATH to the power of LOVE.
 
 Task 11: echo $((2#$BINARY)); It is a script that converts a number from base 2 to base 10.
 
+Task 12: echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"; It prints all possible combinations of two letters except oo.
+
+Task 13: printf '%.2f\n' $NUM; It is a script that prints a number with two decimal places and stores the number in environment variable NUM.
+
