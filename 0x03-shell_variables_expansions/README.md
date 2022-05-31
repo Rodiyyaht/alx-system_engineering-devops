@@ -26,3 +26,8 @@ Task 12: echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"; It prints all possible 
 
 Task 13: printf '%.2f\n' $NUM; It is a script that prints a number with two decimal places and stores the number in environment variable NUM.
 
+Task 14: printf '%x\n' $DECIMAL; It converts a number grom base 10 to base 16.
+
+Task 15: tr 'A-Za-z' 'N-ZA-Mn-za-m'; It is a script that encodes and decodes text using the rot13 encryption.
+
+
