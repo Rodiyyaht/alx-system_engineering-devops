@@ -6,5 +6,6 @@ Task 2: PATH=$PATH:/action; It adds /action to PATH.
 
 Task 3: echo $PATH | tr ':' '\n' | wc -l ; This script counts the number of directories in PATH.
 
+Task 4: printenv; It creates a script that lists environment variables.
 
 
