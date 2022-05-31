@@ -17,3 +17,8 @@ Task 7: export BEST="School"; It creates a new global variable.
 Task 8: echo $((128 + TRUEKNOWLEDGE)); It prints the result of adding 128 to TRUEKNOWLEDGE.
 
 Task 9: echo $((POWER/DIVINE)); It prints the result of POWER over DIVINE.
+
+Task 10: echo $((BREATH**LOVE)); Simply does BREATH to the power of LOVE.
+
+Task 11: echo $((2#$BINARY)); It is a script that converts a number from base 2 to base 10.
+
