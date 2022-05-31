@@ -12,4 +12,6 @@ Task 5: set; It creates a script that list all local and environmental variables
 
 Task 6: BEST="School"; A script that creates a new local variable.
 
+Task 7: export BEST="School"; It creates a new global variable.
+
 
