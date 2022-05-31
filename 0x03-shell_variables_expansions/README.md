@@ -8,4 +8,6 @@ Task 3: echo $PATH | tr ':' '\n' | wc -l ; This script counts the number of dire
 
 Task 4: printenv; It creates a script that lists environment variables.
 
+Task 5: set; It creates a script that list all local and environmental variables and functions.
+
 
