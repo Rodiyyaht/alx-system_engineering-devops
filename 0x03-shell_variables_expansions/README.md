@@ -14,4 +14,6 @@ Task 6: BEST="School"; A script that creates a new local variable.
 
 Task 7: export BEST="School"; It creates a new global variable.
 
+Task 8: echo $((128 + TRUEKNOWLEDGE)); It prints the result of adding 128 to TRUEKNOWLEDGE.
 
+Task 9: echo $((POWER/DIVINE)); It prints the result of POWER over DIVINE.
