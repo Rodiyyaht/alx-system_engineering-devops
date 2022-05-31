@@ -4,5 +4,7 @@ Task 1: echo "hello $USER"; It is a script that prints hello user, where user is
 
 Task 2: PATH=$PATH:/action; It adds /action to PATH.
 
+Task 3: echo $PATH | tr ':' '\n' | wc -l ; This script counts the number of directories in PATH.
+
 
 
