@@ -30,4 +30,6 @@ Task 14: printf '%x\n' $DECIMAL; It converts a number grom base 10 to base 16.
 
 Task 15: tr 'A-Za-z' 'N-ZA-Mn-za-m'; It is a script that encodes and decodes text using the rot13 encryption.
 
+Task 16: paste -d, - - | cut -d, -f1; It is a script that prints every other line from the input, starting with the first line.
 
+Task 17: printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 behlnort; It is a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
