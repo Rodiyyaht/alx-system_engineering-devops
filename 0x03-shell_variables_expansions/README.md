@@ -10,4 +10,6 @@ Task 4: printenv; It creates a script that lists environment variables.
 
 Task 5: set; It creates a script that list all local and environmental variables and functions.
 
+Task 6: BEST="School"; A script that creates a new local variable.
+
 
