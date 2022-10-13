@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 20.
+
+word=1
+while [ $word -lt 21 ]
+do
+    case $word in
+
+        4)
+	    echo $word
+	    echo "bad luck from China"
+	    ;;
+	
+	9)
+	    echo $word
+	    echo "bad luck from Japan"
+	    ;;
+	
+	17)
+	    echo $word
+	    echo "bad luck from Italy"
+	    ;;
+
+	*)
+	    echo $word
+	    ;;
+    esac
+
+    let word+=1
+done

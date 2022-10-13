@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays Best School 10 times.
+
+word=0
+while [ $word -lt 10 ]
+do
+    echo "Best School"
+    let word=word+1
+done

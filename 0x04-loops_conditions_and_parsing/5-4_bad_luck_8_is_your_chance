@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# displays Best School 10 times.
+
+word
+while [ $word
+do
+    if [ $word
+    then
+        echo "bad luck"
+    elif [ $word
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    let word
+done
